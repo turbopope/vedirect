@@ -63,7 +63,7 @@ class vedirect:
                 self.bytes_sum = 0
                 return self.dict
             else:
-                print 'Malformed packet'
+                # print 'Malformed packet'
                 self.bytes_sum = 0
         elif self.state == self.HEX:
             self.bytes_sum = 0
